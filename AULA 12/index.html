@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PALETA</title>
+
+    <style>
+        body {
+            background-image: linear-gradient(90deg, #0664a4, #05b1bf)
+        }
+
+        div {
+            margin-left: 25%;
+            margin-right: 25%;
+            background-color: #ecfafd;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            color: #0664a4;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif';
+        }
+
+        .cap {
+            color: rgb(6, 100, 164);
+        }
+
+        .right {
+            color: black;
+        }
+
+        div:hover {
+            background-color: #8edef7;
+        }
+
+        a {
+            color: #0664a4;
+            text-decoration: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: purple;
+            text-decoration: underline;
+        }
+
+        a::before {
+            content: " * ";
+        }
+
+        a::after {
+            content: " * ";
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <table align="center" cellpadding="50">
+        <th><img src="ocean.jpg" alt="wave"></th>
+    </table>
+
+    <div :hover>
+        <br>
+        <p>Youtube, Amazon Music and Spotify:</p>
+        <br>
+    </div>
+
+    <br><br>
+
+    <div>
+        <br><br>
+        <a :hover :visited href="http://youtube.com" title="YOUTUBE">&#9836;</a>
+        <br><br>
+        <a :hover :visited href="https://www.amazon.com.br/music/free?" title="AMAZON MUSIC">&#9836</a>
+        <br><br>
+        <a :hover :visited href="https://open.spotify.com/intl-pt" title="SPOTIFY">&#9836</a>
+        <br><br><br>
+    </div>
+
+    <table align="center" cellpadding="50">
+        <th>
+            
+            <br>
+            <p class="right"></p>Anne Mivarb &reg;</p>
+        </th>
+    </table>
+
+
+
+
+</body>
+
+</html>
